@@ -1,12 +1,12 @@
 import axios from "axios";
-
+const apiUrl = import.meta.env.VITE_BACKEND_API_URL;
 
 const register = async (data) => {
 
     try {
         console.log(data);
 
-        const response = await axios.post('http://localhost:3000/api/v1/signup', {
+        const response = await axios.post(`${apiUrl}/api/v1/signup`, {
             name: data.name,
             email: data.email,
             password: data.password,

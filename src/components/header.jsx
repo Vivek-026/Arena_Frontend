@@ -46,7 +46,7 @@ function Header() {
                     )}
                     
                     <Link 
-                        to={'/about'} 
+                        to={'/'} 
                         className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200 px-3 py-2 rounded-lg hover:bg-gray-50"
                     >
                         About

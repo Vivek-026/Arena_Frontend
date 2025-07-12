@@ -1,4 +1,5 @@
 import axios from "axios";
+const apiUrl = import.meta.env.VITE_BACKEND_API_URL;
 
 
 const CreateTurf = async (data) => {
@@ -6,7 +7,7 @@ const CreateTurf = async (data) => {
     try {
         console.log(data);
 
-        const response = await axios.post('http://localhost:3000/api/v1/turf', {
+        const response = await axios.post(`${apiUrl}/api/v1/turf`, {
             name: data.name,
             city: data.location,
             price: data.price,
