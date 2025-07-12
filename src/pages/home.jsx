@@ -63,7 +63,7 @@ function Home() {
       {/* Hero Section */}
       <section
         className="relative h-[65vh] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: "url('../public/hero-bg-3.webp')" }}
+        style={{ backgroundImage: "url('/hero-bg-3.webp')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
         <div className="relative text-center px-4 text-white" data-aos="zoom-in">
