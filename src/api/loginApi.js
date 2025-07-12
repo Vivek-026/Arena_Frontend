@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = import.meta.env.VITE_BACKEND_API_URL;
+import apiUrl from "../config/config";
 const login=async(data)=>{
 
     try {
