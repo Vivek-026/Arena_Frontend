@@ -1,2 +1,2 @@
-const apiUrl = "https://arena-backend-4sn1.onrender.com";
+const apiUrl = "http://localhost:3000";
 export default apiUrl;
